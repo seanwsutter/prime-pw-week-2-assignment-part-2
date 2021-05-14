@@ -94,9 +94,6 @@ So 'isStudent' is true, and 'age' (34) is not less than 30. So since neither of 
 The else if statement is asking 'isStudent' === true, in this case it is true, so we log out, 'Welcome to Prime!'
 */
 
-}
-
-
 //CODE
 /*
 let isStudent = true;
@@ -114,9 +111,6 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
-
-
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code.
@@ -145,19 +139,17 @@ if (number >= 2) {
 
 */
 
-
-
 //4. We start with three variables -- colorOne is set to 'blue' and
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'red'; // FIX - colorOne should be set to 'blue'
+let colorTwo = 'blue'; //FIX - colorTwo should be set to 'red'
 let mix = true;
 
-if (mix === true) {
-  colorOne = 'purple';
+if (mix === true) { // FIX - In between the () can just have the word mix, since its already checking if thats true.
+  colorOne = 'purple'; // FIX - colorTwo also needs to be changed to 'purple'
 }
 */
 
@@ -167,9 +159,9 @@ if (mix === true) {
 
 /*
 let temp = 40;
-const time = 4;
+const time = 4; // FIX - const should be changed to 'let'
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 || time >= 4) { FIX - the operator (||) stands for 'or', we need the operator (&&) for 'and'
   console.log('throw away the food!');
 }
 */
