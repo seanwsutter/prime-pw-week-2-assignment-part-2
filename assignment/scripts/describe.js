@@ -26,10 +26,15 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-//  
-//
-//
-//
+/*
+Created a variable using command 'let', then assigned it with the value 'Dane'.
+Then we run a conditional using command 'if'. If whatever is inbetween the (), or conditional1, is true,
+then it will run whatever block of code is between the {}. In this case, if our variable
+name ('Dane)'' is equal to exactly (===) the value 'Mary', then it will run,
+'console.log('Hi, Mary!');'. Using command 'else' will run conditional2, if the first conditional
+isnt true. So in this case, 'name' does not equal 'Mary', so the 'else' command will run
+'console.log('How do you do?');'.
+*/
 
 //CODE
 /*
@@ -40,15 +45,22 @@ if (name === 'Mary') {
 } else {
   console.log('How do you do?');
 }
-
-
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+/*
+Created a variable using 'let', named it 'secret' but did not assing a value to it.
+Created another variable 'code', gave it a value of '123'
+Ran a conditional, asking if this is true: Is 'code', === (equal to exactly), '123'.
+If that is true, run the code between {}. Which assigned a value of 'super' to our variable
+'secret'. And also changing the value of 'code' to 'code * 2'. So now code has a new value of
+'123 * 2' which is an equation that equals '246'. So the value for 'code' is now 246.
+
+Then we run another if statement. If 'code' is, > (greater than), '250' run code between {}
+So since, 'code' (246) is NOT greater 250. then the code between the {} does not get executed.
+So the value of 'secret', when we log it out, is still 'super'.
+*/
+
 
 //CODE
 /*
@@ -70,10 +82,20 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+/*
+Created variable 'isStudent', which is a boolean so its either 'true' or 'false', in this case 'true'.
+Created variable 'age', assigned it a value of '34'.
+Created variable 'zip', assigned it a value of '55407'.
+The if statement is checking if 'isStudent', is exactly (===) true, and also using the 'and' operator (&&)
+to check if 'zip' is greater than (<) 80000. Both of these have to be true in order to execute the code between the {}.
+The else if statement is a new conditional to test if the first one is 'false', which in this case it is false.
+So now, else if i9s asking 'isStudent' === 'false', and also using the 'or' operator (||), is age less than (<) 30.
+So 'isStudent' is true, and 'age' (34) is not less than 30. So since neither of those are true we move on to another else if
+The else if statement is asking 'isStudent' === true, in this case it is true, so we log out, 'Welcome to Prime!'
+*/
+
+}
+
 
 //CODE
 /*
