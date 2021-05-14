@@ -161,7 +161,7 @@ if (mix === true) { // FIX - In between the () can just have the word mix, since
 let temp = 40;
 const time = 4; // FIX - const should be changed to 'let'
 
-if (temp > 39 || time >= 4) { FIX - the operator (||) stands for 'or', we need the operator (&&) for 'and'
+if (temp > 39 || time >= 4) { // FIX - the operator (||) stands for 'or', we need the operator (&&) for 'and'
   console.log('throw away the food!');
 }
 */
@@ -172,11 +172,12 @@ if (temp > 39 || time >= 4) { FIX - the operator (||) stands for 'or', we need t
 
 /*
 let age = 21;
-const minAge = 21;
-
-if(minAge <= age) {
-  console.log('no entry');
+const minAge = 21; // FIX - change 'const' to 'let' //// NOTE: Not sure if this is correct, if you ever need to change minAge
+                                                      // within a code block or a function it might be useful to create it
+                                                      // using 'let'
+if(minAge <= age) { // FIX - Change comparison operator to '>=', and code in 'age' first, and 'minAge' second.
+  console.log('no entry'); // FIX - Change 'no entry' to 'enter'
 } else {
-  console.log('enter');
+  console.log('enter'); // FIX - change 'enter' to 'no entry' Just in case we ever change the values of 'age' and 'minAge'
 }
 */
